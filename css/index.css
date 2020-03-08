@@ -211,3 +211,38 @@ footer nav a {
     padding: 0 20px 20px 20px;
     border-bottom: 1px dashed black;
 }
+
+.about-boxes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding-top: 30px;
+    
+}
+
+.about-box {
+    width: 45%;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px dashed black;
+    padding-bottom: 15px;
+    margin-bottom: 50px;
+}
+
+.about-box img {
+    margin-bottom: 10px;
+}
+
+.about-box p {
+    margin-bottom: 10px;
+}
+
+.about-box a {
+    text-decoration: none;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 10px 0;
+    width: 40%;
+    text-align: center;
+}
