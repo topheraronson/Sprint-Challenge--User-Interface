@@ -206,3 +206,8 @@ footer nav a {
 .box-10 {
     background: dodgerblue;
 }
+
+.about {
+    padding: 0 20px 20px 20px;
+    border-bottom: 1px dashed black;
+}
